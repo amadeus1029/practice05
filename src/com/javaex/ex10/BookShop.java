@@ -41,7 +41,6 @@ public class BookShop {
                                 if(num>0&&num<books.length) {
                                     if(books[num-1].getStateCode() == "재고있음") {
                                         books[num-1].rent();
-                                        System.out.println("대여를 완료했습니다");
                                     } else {
                                         System.out.println("재고가 없는 책입니다");
                                     }

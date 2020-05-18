@@ -47,6 +47,7 @@ public class Book {
     public void rent() {
         if(this.stateCode == 1) {
             this.stateCode = 0;
+            System.out.println(this.getBookNo()+"."+this.getTitle()+" 대여에 성공했습니다.");
         } else {
             System.out.println("이미 대여중인 책입니다");
         }
