@@ -5,13 +5,13 @@ public class Base {
     public void service(String state) {
         switch (state) {
             case "낮" :
-                this.day();
+                day();
                 break;
             case "밤" :
-                this.night();
+                night();
                 break;
             case "오후" :
-                this.afternoon();
+                afternoon();
                 break;
             default:
                 System.out.println("잘못 입력하셨습니다");
